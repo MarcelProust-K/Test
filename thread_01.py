@@ -18,6 +18,9 @@ def test03(times):
     print("this is test fun:")
     time.sleep(3)
 
+def test04:(times):
+    print("this is test fun:")
+    time.sleep(3)
 
 def main():
     t1 = threading.Thread(target=test01, args=(3, ))
