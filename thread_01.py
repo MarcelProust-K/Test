@@ -20,7 +20,7 @@ def main():
     t2.start()
     t1.join()
     t2.join()
-    print("aaaaa")
+    print("run end")
     # while True:
     #     thread_num = len(threading.enumerate())
     #     print("当前运行的线程个数：%d" %thread_num)
