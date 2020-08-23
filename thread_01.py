@@ -14,6 +14,10 @@ def test02(times):
         print("start test02")
         time.sleep(1)
 
+def test03(times):
+    print("this is test fun:")
+    time.sleep(3)
+
 
 def main():
     t1 = threading.Thread(target=test01, args=(3, ))
