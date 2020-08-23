@@ -3,12 +3,14 @@ import time
 
 def test01(times):
     for i in range(times):
+        print(i)
         print("start test01")
         time.sleep(2)
 
 
 def test02(times):
     for i in range(times):
+        print(i)
         print("start test02")
         time.sleep(1)
 
